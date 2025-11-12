@@ -8,7 +8,7 @@ void atualizar_cliente(char cpf_busca[12], long posicao)
 {
     system("clear");
     printf("╔════════════════════════════════════════╗\n");
-    printf("║           ATUALIZAR CLIENTE           ║\n");
+    printf("║           ATUALIZAR CLIENTE            ║\n");
     printf("╚════════════════════════════════════════╝\n\n");
     
     Cliente cliente;
