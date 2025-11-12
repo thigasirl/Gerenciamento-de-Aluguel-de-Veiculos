@@ -89,7 +89,7 @@ void alugar_veiculo()
         printf("❌ Nenhum veículo disponível da marca %s para categoria %s\n", marca_desejada, categoria_cliente);
         printf("Pressione Enter para voltar...");
         getchar();
-        getchar(); // Segundo getchar() para capturar o Enter
+        getchar();
         return;
     }
     
@@ -191,7 +191,7 @@ void alugar_veiculo()
     
     system("clear");
     printf("╔════════════════════════════════════════╗\n");
-    printf("║         LOCAÇÃO CONCLUÍDA!            ║\n");
+    printf("║          LOCAÇÃO CONCLUÍDA!            ║\n");
     printf("╚════════════════════════════════════════╝\n\n");
     
     printf("✅ Locação registrada com sucesso!\n\n");
